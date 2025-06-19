@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SabnisA123/AaryaReactPortfolio/static/css/main.4e5c0516.css",
+    "main.js": "/SabnisA123/AaryaReactPortfolio/static/js/main.91347b11.js",
+    "static/js/453.d97651cd.chunk.js": "/SabnisA123/AaryaReactPortfolio/static/js/453.d97651cd.chunk.js",
+    "index.html": "/SabnisA123/AaryaReactPortfolio/index.html",
+    "main.4e5c0516.css.map": "/SabnisA123/AaryaReactPortfolio/static/css/main.4e5c0516.css.map",
+    "main.91347b11.js.map": "/SabnisA123/AaryaReactPortfolio/static/js/main.91347b11.js.map",
+    "453.d97651cd.chunk.js.map": "/SabnisA123/AaryaReactPortfolio/static/js/453.d97651cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e5c0516.css",
+    "static/js/main.91347b11.js"
+  ]
+}
