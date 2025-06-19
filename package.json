@@ -2,7 +2,7 @@
   "name": "mynewportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SabnisA123.github.io/ReactNewPortfolio",
+  "homepage": "https://github.com/SabnisA123/AaryaReactPortfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
