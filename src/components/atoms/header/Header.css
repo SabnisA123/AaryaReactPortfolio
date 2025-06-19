@@ -1,0 +1,24 @@
+.Header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 40px;
+}
+
+.Header-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.Header-list li:hover{
+  text-decoration: underline;
+}
+.header-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+.header-title:hover {
+  text-shadow: offset-x offset-y blur-radius color;
+}

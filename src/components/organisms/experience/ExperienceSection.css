@@ -1,0 +1,124 @@
+/* .experience-text {
+  color: white;
+  padding: 10px 140px;
+}
+.experience-content {
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  padding: 20px 60px;
+  margin: 20px 70px;
+  cursor: pointer;
+}
+
+.experience-text2 {
+  font-size: 22px;
+  color: rgb(19, 122, 206);
+  font-weight: 500;
+  border-bottom: 1px solid;
+  background-color: rgb(7, 16, 27);
+}
+.experience-content:hover {
+  box-shadow: 1px 4px 3px 2px white;
+  transform: translateY(-10px);
+  transition: background 0.5s, transform 0.5s;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+} */
+.timeline-section {
+  padding: 10px 140px;
+}
+
+.timeline-title {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.timeline-container {
+  position: relative;
+  border-left: 2px solid #b8c4d6;
+  margin-left: 30px;
+}
+
+.timeline-block {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.dot {
+  position: absolute;
+  top: 8px;
+  left: -10px;
+  width: 14px;
+  height: 14px;
+  background-color: #6a8abb;
+  border-radius: 50%;
+  border: 3px solid white;
+  z-index: 1;
+}
+
+.timeline-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.timeline-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.year {
+  font-weight: bold;
+  color: #6a8abb;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.timeline-card h3 {
+  font-size: 18px;
+  margin: 0px;
+  color: #111827;
+}
+
+.timeline-card p {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+}
+.experience-details {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-details li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.tech-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-used button {
+  background-color: #00bcd4;
+  color: #0f172a;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: default;
+  font-weight: 500;
+  transition: 0.2s;
+}

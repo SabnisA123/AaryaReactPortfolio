@@ -1,0 +1,87 @@
+.Banner-section {
+  color: white;
+  padding: 40px 140px;
+}
+
+.Banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Set a max width */
+  width: 100%;
+  margin: auto;
+  gap: 80px; 
+}
+
+.Banner-text {
+  font-size: 24px;
+
+}
+
+.banner-content-left {
+  /* flex: 1; */
+
+}
+
+.banner-content-left img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes the image circular */
+  border: 6px solid #b8c4d6; /* Stylish border color */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Optional: smooth shadow */
+  transition: transform 0.3s ease;
+}
+
+.banner-content-left img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  border-color: #291866; /* Change border color on hover */
+}
+
+.sub-text {
+  font-size: 14px;
+  margin-top: 20px;
+  /* width: 400px; */
+}
+.typed-text::after {
+  content: "Frontend Developer";
+  animation: changeText 4s infinite;
+  font-weight: bold;
+  color: #e6a400;
+  font-size: 32px;
+}
+.banner-btn {
+  margin: 50px auto;
+  padding: 14px 26px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  background: #b8c4d6;
+  white-space: noWrap;
+  font-size: 14px;
+}
+
+.banner-btn:hover{
+  background-color: #007180 ;
+  color: white;
+
+}
+
+
+@keyframes changeText {
+  0% {
+    content: "Frontend Developer";
+  }
+  33% {
+    content: "Full Stack Developer";
+  }
+  66% {
+    content: "React Enthusiast";
+  }
+  100% {
+    content: "Frontend Developer";
+  }
+}
